@@ -1,0 +1,13 @@
+# 必须是 7860，否则 HF 无法访问
+port: 7860
+
+# 开启远程管理（可选）
+remote-management:
+  allow-remote: true
+  secret-key: "050609Ok" # 记得改成你自己的密码
+
+auth-dir: "/app/auth"
+
+# 这是一个初始模板，后续你可以直接去 Git 仓库里修改 config.yaml
+proxy-url: ""
+debug: false
