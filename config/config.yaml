@@ -11,3 +11,10 @@ auth-dir: "/app/auth"
 # 这是一个初始模板，后续你可以直接去 Git 仓库里修改 config.yaml
 proxy-url: ""
 debug: false
+services:
+  # --- Gemini 配置开始 ---
+  - type: gemini
+    # 如果你想自定义模型名字映射，可以在这里写，不写通常也有默认
+    # 这里的 keys 下面填你的 Key，注意前面有个短横线
+    keys:
+      - "AIzaSyAtF8w_LPdcSuhkgXLqnAiwYAsgMxnJLfE"
